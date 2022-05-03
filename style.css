@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Sarpanch', sans-serif;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    width: 22rem;
+    height: 27rem;
+    background-color: rgb(7, 7, 23);
+    margin: 0 auto;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    width: 16.8rem;
+    text-align: right;
+    height: 2.98rem;
+    margin: 10px 14px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: .21rem;
+    padding-right: .5rem;
+}
+
+#keyboard{
+    height: 400px;
+}
+.operator,.number{
+    width: 5.4rem;
+    height: 50px;
+    margin:.6rem .2rem;
+    float: left;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.number{
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.equal,.clear{
+    background-color: rgb(248, 69, 152);
+}
+.number,.operator{
+    cursor: pointer;
+}
+.operator{
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+button{
+    background-color: rgb(117, 50, 194);
+    color: white;
+}
+
+/* button:active{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} */
+
+.clear{
+    width: 2.7rem;
+    height: 3.1rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 18.2rem;
+    bottom: 20.2rem;
+    border-radius: .21rem;
+}
+
+.operator{
+    width: 2.7rem;
+}
+
+.dot,.equal{
+    width: 5.4rem;
+}
+
+.one,.four,.seven,.dot{
+    margin-left: .9rem;
+}
