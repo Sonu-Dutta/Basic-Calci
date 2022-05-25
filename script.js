@@ -34,13 +34,6 @@ for(var i=0;i<operator.length;i++){
             printHistory("");
             printOutput("");
         }
-        // else if(this.id=="backspace"){
-        //     var output=reverseNum(getOutput()).toString();
-        //     if(output){
-        //         output=output.substring(0,output.length-1);
-        //         printOutput(output);
-        //     }
-        // }
         else{
             var output=getOutput();
             var history=getHistory();
